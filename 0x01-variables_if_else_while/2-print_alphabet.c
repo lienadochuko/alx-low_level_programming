@@ -9,12 +9,14 @@
 
 int main(void)
 {
-int ch;
-	for (ch= ‘a’; ch<= ‘z’; ch++)
+	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
+	int ch;
+
+	for (ch = 0; ch < 26; ch++)
 	{
-		putchar (ch);
+		putchar(alp[ch]);
 	}
-		putchar (‘\n’) ;
+		putchar('\n');
 		return (0);
 }
 
