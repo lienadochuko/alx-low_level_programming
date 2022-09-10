@@ -11,7 +11,7 @@ int main(void)
 	char alp1[26] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	int ch;
 	int cha;
-	
+
 	for (ch = 0; ch < 26; ch++)
 	{
 		putchar(alp[ch]);
