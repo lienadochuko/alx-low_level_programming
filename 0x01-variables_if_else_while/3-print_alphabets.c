@@ -1,11 +1,10 @@
 #include<stdio.h>
 
 /**
- * main - print the aplhabets in lowercase and then in uppercase
+ * main - print the aplhabets
  *
  * Return: Always 0 (success)
  */
-
 int main(void)                           
 {	
 
