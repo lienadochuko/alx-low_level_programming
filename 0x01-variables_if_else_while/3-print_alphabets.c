@@ -22,7 +22,7 @@ int main(void)
 
 	for (cha = 0; cha < 26; cha++)
 	{
-		putchar(alp[cha]);
+		putchar(alp1[cha]);
 	}
                 putchar('\n');
                 return (0);
