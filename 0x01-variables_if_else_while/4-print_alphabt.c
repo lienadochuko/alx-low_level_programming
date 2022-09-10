@@ -1,21 +1,12 @@
 #include<stdio.h>
 
-
-
 /**
-
  * main - print the aplhabets
-
  *
-
  * Return: Always 0 (success)
-
  */
-
 int main(void)
-
 {
-
 char alp[24] = "abcdfghijklmnoprstuvwxyz";
 int ch;
 
