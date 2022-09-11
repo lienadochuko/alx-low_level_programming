@@ -5,7 +5,7 @@
  *
  * Return - Always 0 (Success)
  */
-int main(void)
+int main(int ch)
 {
 	char alp[26] = "zyxwvutsrqponmlkjihgfedcba";
 	int ch;
