@@ -13,7 +13,6 @@ int main(void)
 	for (ch = 0; ch < 26; ch++)
 	{
 		putchar(alp[ch]);
-		return (0);
 	}
 	putchar('\n');
 	return (0);
