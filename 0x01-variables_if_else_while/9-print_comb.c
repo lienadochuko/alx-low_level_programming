@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 /**
- * main - Print all possible combination
+ * main - Print Possible outcom.
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
 	int i;
-	
+
 	for (i = 48; i < 58; i++)
 	{
 		putchar(i);
@@ -18,6 +18,6 @@ int main(void)
 			putchar(' ');
 		}
 	}
-	putchar('\n');
-	return (0);
+		putchar('\n');
+		return (0);
 }
