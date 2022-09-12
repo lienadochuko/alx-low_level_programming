@@ -11,14 +11,14 @@ int main(void)
 	int i;
 	int ch;
 
+	for (i = -1; i < 9; i++)
+	{
+		putchar(i);
+	}
+
 	for (ch = 0; ch < 6; ch++)
 	{
 		putchar(alp[ch]);
-	}
-
-	for (i = 0; i < 9; i++)
-	{
-		putchar(i);
 	}
 	putchar('\n');
 	return (0);
