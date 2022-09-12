@@ -7,18 +7,16 @@
  */
 int main(void)
 {
-	char alp[6] = "abcdef";
 	int i;
-	int ch;
 
-	for (i = 41; i < 51; i++)
+	for (i = 0; i < 9; i++)
 	{
 		putchar(i);
 	}
 
-	for (ch = 0; ch < 6; ch++)
+	for (i = 10; i < 15; i++)
 	{
-		putchar(alp[ch]);
+		putchar(i);
 	}
 	putchar('\n');
 	return (0);
