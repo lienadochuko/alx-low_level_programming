@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isalpha -  checks if the input is letter
+ * _isalpha - checks if the input is letter
  * lowercase or uppercase
  *
  * @c: The character is in ASCII code
@@ -10,7 +10,7 @@
  */
 int _isalpha(int c)
 {
-	if ((c >=97 && c <= 122) || ( c >= 65 && c <= 90))
+	if ((c >= 97 && c <= 122) || (c >= 65 && c <= 90))
 	{
 		return (1);
 	}
