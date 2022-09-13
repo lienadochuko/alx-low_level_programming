@@ -7,9 +7,13 @@
  */
 int main(void)
 {
-	_putchar('_');
-	_putchar("putchar");
-	_putchar('\n');
+	char alp[8] = "_putchar";
+	int ch;
 
+	for (ch = 0; ch < 8; ch++)
+	{
+		_putchar(alp[ch]);
+	}
+	_putchar('\n');
 	return (0);
 }
