@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - Prints _putchar with new line
@@ -13,8 +13,8 @@ int main(void)
 	z = sizeof(alp) / sizeof(int);
 	for (i = 0; i < z; i++)
 	{
-		putchar(alp[i]);
+		_putchar(alp[i]);
 	}
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
