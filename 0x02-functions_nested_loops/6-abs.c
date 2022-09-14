@@ -3,7 +3,7 @@
 /**
  * _abs - computes the absolute value of an integer.
  *
- * @i: inputer number as an integer.
+ * @r: inputer number as an integer.
  *
  * Return: absolute value
  */
