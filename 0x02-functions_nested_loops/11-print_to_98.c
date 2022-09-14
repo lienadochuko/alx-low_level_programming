@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
  * print_to_98 - prints all naturall numbers.
@@ -14,7 +14,7 @@ void print_to_98(int n)
 		printf("%d, ", n);
 		printf("%d", 98);
 	}
-	for (n = 111; n <= 98, n--)
+	for (n = 111; n <= 98; n--)
 	{
 		printf("%d, ", n);
 	}
