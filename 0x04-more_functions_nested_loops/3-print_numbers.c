@@ -1,4 +1,4 @@
-#include "mian.h"
+#include "main.h"
 
 /**
  * print_numbers - Prints the numbers followed by new line.
