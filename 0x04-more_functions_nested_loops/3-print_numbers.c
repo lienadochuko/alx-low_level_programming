@@ -2,8 +2,7 @@
 
 /**
  * print_numbers - Prints the numbers followed by new line.
- * @c: contains numbers.
- * Return: numbers.
+ * Return: no return.
  */
 void print_numbers(void)
 {
