@@ -8,6 +8,7 @@
 void print_triangle(int size)
 {
 	int a, c;
+	
 	for (c = 0; c < size; c++)
 	{
 		for (a = 1; a < (size - c); a++)
