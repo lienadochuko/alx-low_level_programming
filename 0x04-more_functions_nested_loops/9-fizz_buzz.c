@@ -8,25 +8,25 @@ int main(void)
 {
 	int c;
 
-	n = 1;
-	printf("%d", n);
-	for (n = 2; n <= 100; n++)
+	c = 1;
+	printf("%d", c);
+	for (c = 2; c <= 100; c++)
 	{
-		if ((n % 3 == 0) && (n % 5 == 0))
+		if ((c % 3 == 0) && (c % 5 == 0))
 		{
 			printf(" FizzBuzz");
 		}
-		else if (n % 3 == 0)
+		else if (c % 3 == 0)
 		{
 			printf(" Fizz");
 		}
-		else if (n % 5 == 0)
+		else if (c % 5 == 0)
 		{
 			printf(" Buzz");
 		}
 		else
 		{
-			printf(" %d", n);
+			printf(" %d", c);
 		}
 	}
 	printf("\n");
