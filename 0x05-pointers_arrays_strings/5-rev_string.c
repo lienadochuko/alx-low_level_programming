@@ -21,11 +21,11 @@ void rev_string(char *s)
 
 	for (c = 0; c < (i - 1); c++)
 	{
-		for (j = c + 1; j  > 0; j--)
+		for (t = c + 1; t  > 0; t--)
 		{
-			temp = *(str + j);
-			*(str + j) = *(str + (j - 1));
-			*(str + (j - 1)) = temp;
+			temp = *(str + t);
+			*(str + t) = *(str + (t - 1));
+			*(str + (t - 1)) = temp;
 		}
 	}
 }
