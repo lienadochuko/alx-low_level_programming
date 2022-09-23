@@ -1,3 +1,8 @@
+/*
+ * File: 101-print_number.c
+ * Auth: Daniel Erhisohwode
+ */
+
 #include "main.h"
 
 /**
