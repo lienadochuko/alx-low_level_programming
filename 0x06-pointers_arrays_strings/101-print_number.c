@@ -1,34 +1,52 @@
 #include "main.h"
 
 /**
- * print_number - function prints an integer
- *
- *@n: integer
- *
- * Return: nothing
+ * base10 - power in 10 base
+ * @n: an exponent
+ * Return: returns 10 to power exponent
  */
+int base10(int n)
+{
+	int base = 10;
 
+	while (n > 0)
+	{
+		base *= 10;
+		n--;
+	}
+	return (base);
+}
+
+/**
+ * print_number - prints integers enters as parameters using putchar
+ * @n: integer to print
+ * Return: void
+ */
 void print_number(int n)
 {
-	int y = 1000000000;
-	int x, z;
+	int power;
 
-	for (x = 0; x < 10; x++)
+	power = base10(8);
+
+	if (n < 0)
 	{
-		if ((n / y) == 0 && z == 0)
+		_putchar('-');
+		n *= -1;
+	}
+
+	if (n == 0)
+		_putchar('0');
+
+	else
+	{
+		while (n / power == 0)
+			power /= 10;
+
+		while (power >= 1)
 		{
-			y = (y / 10);
-			continue;
+			_putchar((n / power) + '0');
+			n %= power;
+			power /= 10;
 		}
-		else if (z == 0)
-		{
-			_putchar((n / y) + '0');
-			z++;
-		}
-		else
-		{
-			_putchar ((n / y) % 10 + '0');
-		}
-		y = (y / 10);
 	}
 }
