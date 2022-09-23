@@ -15,7 +15,7 @@ int _strcmp(char *s1, char *s2)
 	{
 		if ((*(s1 + c) == '\0') && (*(s2 + c) == '\0'))
 			break;
-		i = *(s1 + c) -*(s2 + c);
+		i = *(s1 + c) - *(s2 + c);
 		c++;
 	}
 
