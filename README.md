@@ -1,20 +1,8 @@
-Learning Objectives
-
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
-
-
-
 General
 
-What are pointers and how to use them
+What is a static library, how does it work, how to create one, and how to use it
 
-What are arrays and how to use them
-
-What are the differences between pointers and arrays
-
-How to use strings and how to manipulate them
-
-Scope of variables
+Basic usage of ar, ranlib, nm
 
 Copyright - Plagiarism
 
@@ -28,7 +16,7 @@ Any form of plagiarism is strictly forbidden and will result in removal from the
 
 Requirements
 
-General
+C
 
 Allowed editors: vi, vim, emacs
 
@@ -56,6 +44,4 @@ The prototypes of all your functions and the prototype of the function _putchar 
 
 Don’t forget to push your header file
 
-More Info
 
-You do not need to learn about pointers to functions, pointers to pointers, multidimensional arrays, arrays of structures, malloc and free - yet.
